@@ -30,3 +30,8 @@ ln -sf ${STAC_DOT_FILES}/.gitignore_global .gitignore_global
 ln -sf ${STAC_DOT_FILES}/.tmux.conf.linux .tmux.conf
 
 wget https://sh.rustup.rs -O rustup.sh && sh rustup.sh -y && rm rustup.sh
+
+# Go language
+GO_VERSION='1.13.1'
+wget https://dl.google.com/go/go${GO_VERSION}.linux-amd64.tar.gz
+tar -C /usr/local -xzf go${GO_VERSION}.linux-amd64.tar.gz
