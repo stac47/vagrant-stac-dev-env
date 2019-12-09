@@ -5,7 +5,7 @@ set -o nounset
 set -o errexit
 
 STAC_DOT_FILES='.stac-dot-files'
-GO_VERSION='1.13.1'
+GO_VERSION='1.13.5'
 HOME_FOR_VAGRANT='/home/vagrant'
 
 apt-get update && apt-get dist-upgrade -y && apt-get install -y \
