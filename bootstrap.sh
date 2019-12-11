@@ -9,7 +9,12 @@ GO_VERSION='1.13.5'
 HOME_FOR_VAGRANT='/home/vagrant'
 
 apt-get update && apt-get dist-upgrade -y && apt-get install -y \
+    apt-transport-https \
     build-essential \
+    elfutils \
+    gdb \
+    pkg-config \
+    silversearcher-ag \
     tree \
     zsh
 
